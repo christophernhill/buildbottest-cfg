@@ -3,7 +3,7 @@ Experiments with Buildbot
 
 buildbot has general documentation here http://docs.buildbot.net/current/index.html
 
-To get buildbot docker compose recipe going on AWS Lightsail (OS Only, Ubuntu 18.04 LTS)
+To get buildbot docker compose recipe ( https://docs.buildbot.net/latest/tutorial/docker.html#building-and-running-buildbot ) going on AWS Lightsail (OS Only, Ubuntu 18.04 LTS)
 
 ## as root
 ```
@@ -29,4 +29,6 @@ docker-compose up
 
 ## from local system
 ssh -i MYKEY.pem -L 8010:localhost:8010 -l ubuntu LIGHTSAILVMIP
+
+The above can also all run on a local laptop/desktop under Docker too )of course!). 
 
