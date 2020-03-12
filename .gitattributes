@@ -1,0 +1,1 @@
+buildbot_secret.py filter=git-crypt diff=git-crypt
